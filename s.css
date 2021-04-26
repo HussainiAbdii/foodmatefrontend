@@ -1,0 +1,111 @@
+ul {
+  position: absolute;
+  -webkit-animation: rt 7s linear infinite;
+          animation: rt 7s linear infinite;
+  -webkit-animation-delay: 40s;
+          animation-delay: 40s;
+  margin-bottom: auto;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  margin: 0;
+  left: 40%;
+}
+
+li {
+  position: relative;
+  list-style-type: none;
+  width: 0.3px;
+  background-color: black;
+  height: 10px;
+  border-radius: 999px;
+  margin: 1px;
+  display: inline-block;
+  border: 1px solid black;
+}
+
+#v1 {
+  -webkit-animation: yt 2s linear infinite;
+          animation: yt 2s linear infinite;
+  -webkit-animation-delay: 0.12s;
+          animation-delay: 0.12s;
+}
+
+#v2 {
+  -webkit-animation: yt 2s linear infinite;
+          animation: yt 2s linear infinite;
+  -webkit-animation-delay: 0.32s;
+          animation-delay: 0.32s;
+}
+
+#v3 {
+  -webkit-animation: yt 2s linear infinite;
+          animation: yt 2s linear infinite;
+  -webkit-animation-delay: 0.44s;
+          animation-delay: 0.44s;
+}
+
+#v4 {
+  -webkit-animation: yt 2s linear infinite;
+          animation: yt 2s linear infinite;
+  -webkit-animation-delay: 0.56s;
+          animation-delay: 0.56s;
+}
+
+#v5 {
+  -webkit-animation: yt 2s linear infinite;
+          animation: yt 2s linear infinite;
+  -webkit-animation-delay: 0.68s;
+          animation-delay: 0.68s;
+}
+
+@-webkit-keyframes yt {
+  100% {
+    opacity: 0.4;
+    -webkit-transform: scale(-1);
+            transform: scale(-1);
+  }
+  0% {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 0.1;
+  }
+}
+
+@keyframes yt {
+  100% {
+    opacity: 0.4;
+    -webkit-transform: scale(-1);
+            transform: scale(-1);
+  }
+  0% {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 0.1;
+  }
+}
+
+@-webkit-keyframes rt {
+  100% {
+    opacity: 0;
+  }
+  0% {
+    opacity: 0;
+  }
+}
+
+@keyframes rt {
+  100% {
+    opacity: 0;
+  }
+  0% {
+    opacity: 0;
+  }
+}
+/*# sourceMappingURL=s.css.map */

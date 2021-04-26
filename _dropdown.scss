@@ -1,0 +1,32 @@
+#dropdown1{
+    display: none;
+}
+body{
+    background-color: lightgray;
+}
+.ddown{
+    width: 100%;
+    background-color: rgb(255, 251, 251);
+    border-bottom: 2px solid whitesmoke;
+    position: absolute;
+    padding-bottom: 90px;
+    ul{
+        float: left;
+        list-style-type: none;
+        margin-left: 130px;
+        margin-top: 20px;
+    }
+    li{
+        margin: auto;
+        line-height: 34px;
+        text-transform: uppercase;
+        font-family: lexend deca;
+       
+    }
+    a{
+        font-size: 13px;
+        font-weight: bold;
+        color: black;
+        text-decoration: none;
+    }
+}

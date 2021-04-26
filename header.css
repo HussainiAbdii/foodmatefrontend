@@ -1,0 +1,378 @@
+* {
+  margin: 0px;
+}
+
+#fcent, #fcent2 {
+  display: none;
+}
+
+#logins {
+  padding-top: 4px;
+}
+
+#logins i {
+  color: #860686;
+  font-size: 23px;
+  padding-right: 14px;
+  opacity: 0.7;
+}
+
+#logins button {
+  font-family: zen dots;
+  padding: 1px 9px 1px 9px;
+  background-color: white;
+  border-color: black;
+  cursor: pointer;
+}
+
+.inf {
+  float: left;
+}
+
+header {
+  background-color: #202020;
+  height: 40px;
+}
+
+header a {
+  text-decoration: none;
+}
+
+#logo {
+  float: left;
+  padding-left: 10px;
+}
+
+#logo h6 {
+  font-family: poiret one;
+  color: white;
+  font-size: 35px;
+  font-weight: 900;
+}
+
+#logo h6 i {
+  color: #860686;
+  font-size: 29px;
+}
+
+#logo h6 a {
+  color: white;
+}
+
+.nm {
+  margin-top: 7px;
+  margin-left: -23px;
+  width: 100%;
+}
+
+.nm li {
+  list-style-type: none;
+  font-family: lexend exa;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.nm li .ft {
+  color: white;
+  width: 100%;
+}
+
+.nm #fs, .nm #fs1, .nm #fs2, .nm #fs3, .nm #fs4, .nm #fs5 {
+  display: none;
+}
+
+.ft:hover {
+  background-color: #313131;
+  color: black;
+}
+
+.ft:hover i {
+  -webkit-transform: rotateZ(180deg);
+          transform: rotateZ(180deg);
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.ft {
+  border-left: 2px solid white;
+  height: 30px;
+  padding-left: 1px;
+  text-align: center;
+  margin-top: -6px;
+  padding-top: 9px;
+  font-size: 13px;
+}
+
+#logo {
+  margin-top: 3px;
+  margin-left: 10px;
+}
+
+#logo:hover a {
+  color: #860686;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+#logo:hover i {
+  color: white;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+#info {
+  background-color: #cece06;
+  height: 25px;
+}
+
+#info h6 {
+  text-align: center;
+  font-family: lexend deca;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding-top: 4px;
+}
+
+#info a {
+  color: #2e2e2e;
+  text-decoration: none;
+}
+
+#info a:hover {
+  color: white;
+}
+
+#logins {
+  margin-top: 8px;
+  padding-right: 4%;
+}
+
+#logins input {
+  font-family: lexend exa;
+  font-weight: bold;
+  border-color: black;
+  background-color: #9c9999;
+  font-size: 12px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+#logins input:hover {
+  color: white;
+  background-color: #8b0d0d;
+}
+
+#form1, #form2 {
+  margin: 10px;
+  background-color: black;
+  width: 300px;
+  height: 230px;
+  opacity: 0.8;
+}
+
+#form1 #i1, #form2 #i1, #form1 #i2, #form2 #i2 {
+  color: white;
+  float: right;
+  font-size: 24px;
+}
+
+#form1 #i1:hover, #form2 #i1:hover {
+  color: red;
+  cursor: pointer;
+}
+
+#form1 #i2:hover, #form2 #i2:hover {
+  color: red;
+  cursor: pointer;
+}
+
+#form1 #isc, #form2 #isc {
+  color: white;
+  font-size: 49px;
+  margin-top: 29px;
+}
+
+#form1 #inp, #form2 #inp {
+  width: 270px;
+  margin-bottom: 10px;
+}
+
+#form1 #sub, #form2 #sub {
+  font-family: lexend exa;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#form1 p:hover, #form2 p:hover {
+  color: black;
+}
+
+::-webkit-input-placeholder {
+  font-size: 12px;
+  font-family: lexend exa;
+  font-weight: bold;
+}
+
+:-ms-input-placeholder {
+  font-size: 12px;
+  font-family: lexend exa;
+  font-weight: bold;
+}
+
+::-ms-input-placeholder {
+  font-size: 12px;
+  font-family: lexend exa;
+  font-weight: bold;
+}
+
+::placeholder {
+  font-size: 12px;
+  font-family: lexend exa;
+  font-weight: bold;
+}
+
+#fcent, #fcent2 {
+  margin-top: 10%;
+}
+
+#namelog {
+  background-color: black;
+  width: 200px;
+  padding: 10px;
+  display: none;
+  border-radius: 2px;
+}
+
+#namelog i {
+  color: white;
+  font-size: 40px;
+  font-weight: lighter;
+  padding-bottom: 10px;
+  -webkit-animation: wave 3s linear infinite;
+          animation: wave 3s linear infinite;
+}
+
+#namelog #sub {
+  margin-top: 4px;
+  text-transform: uppercase;
+  color: white;
+  background-color: black;
+  border-color: #fffdfd;
+  font-family: zen dots;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+#show {
+  float: right;
+  padding-right: 20px;
+  font-family: poiret one;
+  text-transform: uppercase;
+  font-weight: bolder;
+  -webkit-animation: glow 2s linear infinite;
+          animation: glow 2s linear infinite;
+  margin-top: -1px;
+}
+
+#srt {
+  margin-top: 3px;
+}
+
+@-webkit-keyframes wave {
+  50% {
+    -webkit-transform: rotateZ(20deg);
+            transform: rotateZ(20deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(-30deg);
+            transform: rotateZ(-30deg);
+  }
+}
+
+@keyframes wave {
+  50% {
+    -webkit-transform: rotateZ(20deg);
+            transform: rotateZ(20deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(-30deg);
+            transform: rotateZ(-30deg);
+  }
+}
+
+@-webkit-keyframes glow {
+  0% {
+    color: #338296;
+  }
+  50% {
+    color: red;
+  }
+  100% {
+    color: #3f5531;
+  }
+}
+
+@keyframes glow {
+  0% {
+    color: #338296;
+  }
+  50% {
+    color: red;
+  }
+  100% {
+    color: #3f5531;
+  }
+}
+
+.fold {
+  color: white;
+}
+
+.fold i {
+  margin-top: 10px;
+  width: 30px;
+  font-size: 23px;
+}
+
+.fold ul {
+  list-style-type: none;
+}
+
+#dropdown1 {
+  display: none;
+}
+
+body {
+  background-color: lightgray;
+}
+
+.ddown {
+  width: 100%;
+  background-color: #fffbfb;
+  border-bottom: 2px solid whitesmoke;
+  position: absolute;
+  padding-bottom: 90px;
+}
+
+.ddown ul {
+  float: left;
+  list-style-type: none;
+  margin-left: 130px;
+  margin-top: 20px;
+}
+
+.ddown li {
+  margin: auto;
+  line-height: 34px;
+  text-transform: uppercase;
+  font-family: lexend deca;
+}
+
+.ddown a {
+  font-size: 13px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+/*# sourceMappingURL=header.css.map */
